@@ -5,6 +5,7 @@ const nextConfig = {
   images: {
     domains: ['localhost'],
   },
+  output: "standalone", // Important for SSR deployment on Render
 };
 
-module.exports = nextConfig; 
+module.exports = nextConfig;
